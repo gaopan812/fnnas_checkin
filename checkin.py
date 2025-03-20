@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 """
+File: checkin.py(飞牛NAS社区签到)
 飞牛社区青龙面板自动签到脚本
 1. 使用单个COOKIE环境变量读取验证信息
 环境变量需要配置：
@@ -111,7 +112,7 @@ def get_check_in_info():
         # 推送格式化后的消息
         if result:
             msg_content = '\n'.join(result)
-            print('📊 签到详情：\n' + msg_content)
+            print('📊 签到详情：\n')
             return msg_content
         else:
             raise Exception('未找到签到数据，页面结构可能已变更')
@@ -151,4 +152,5 @@ if __name__ == '__main__':
     if send_notify:
         if contents =='':
             contents=f'签到失败，请检查账户信息以及网络环境'
+            print(contents)
         send_notify(title, contents)
