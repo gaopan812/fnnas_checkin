@@ -1,5 +1,5 @@
 # fnnas_checkin
-飞牛nas官网论坛青龙签到脚本
+飞牛nas官网论坛青龙面板签到脚本
 ## 1. 新增两个青龙环境变量
 - 名称：FN_COOKIE
 - 名称：fn_pvRK_2132_sign
