@@ -2,11 +2,10 @@
 # coding: utf-8
 """
 File: checkin.py(飞牛NAS社区签到)
-飞牛社区青龙面板自动签到脚本
-1. 使用单个COOKIE环境变量读取验证信息
-环境变量需要配置：
-- FN_COOKIE：完整的飞牛社区Cookie字符串（包含pvRK_2132_saltkey和pvRK_2132_auth）
-- fn_pvRK_2132_sign：签到请求的签名参数
+Author: Gaopan
+cron: 40 0 * * *
+new Env('飞牛NAS社区签到');
+Update: 2025/3/20
 """
 
 import os
