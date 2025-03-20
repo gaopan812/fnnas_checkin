@@ -3,7 +3,7 @@
 """
 File: checkin.py(飞牛NAS社区签到)
 Author: Gaopan
-cron: 40 0 * * *
+cron: 0 30 8 * *
 new Env('飞牛NAS社区签到');
 Update: 2025/3/20
 """
