@@ -6,7 +6,7 @@
 - 环境变量取值：请参见教程https://club.fnnas.com/forum.php?mod=viewthread&tid=8750
 
 ## 2. 青龙订阅拉库
-国内环境拉取指令
+拉取指令
 ```
-ql repo https://ghproxy.net/https://github.com/gaopan812/fnnas_checkin.git "checkin.py" "backUp|assets|README.md" "sendNotify.py"
+ql repo https://github.com/gaopan812/fnnas_checkin.git "checkin.py" "backUp|assets|README.md" "sendNotify.py"
 ```
